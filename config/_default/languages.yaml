@@ -4,7 +4,7 @@ de:
   languageCode: "de-CH"
   weight: 1
   title: "Starship Factory"
-  copyright: "Copyright &copy; {{< current_year >}} Starship Factory, Basel. Inhalte unter [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.de), sofern nicht anders angegeben."
+  copyright: "Copyright &copy; {{< current_year >}} Starship Factory, Basel. Inhalte unter [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/deed.de), sofern nicht anders angegeben."
   params:
     description: "Die Starship Factory ist der Makerspace in Basel: ein offener Werkraum zum Basteln, Bauen, Reparieren und Lernen."
     accessibility:
@@ -63,7 +63,7 @@ en:
   contentDir: content/en
   weight: 2
   title: "Starship Factory"
-  copyright: "Copyright &copy; {{< current_year >}} Starship Factory, Basel. Content under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) unless stated otherwise."
+  copyright: "Copyright &copy; {{< current_year >}} Starship Factory, Basel. Content under [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/) unless stated otherwise."
   params:
     description: "Starship Factory is the makerspace in Basel: an open workshop for making, building, repairing and learning."
     accessibility:

@@ -47,7 +47,7 @@ Starship Factory\
 
 Not a fan of bank transfers? No problem! Bring your donation along on your next visit and put
 it in the donation box, or give it to
-[any board member you like](https://wiki.starship-factory.ch/Vereinskram/Vorstand/).
+any board member you like.
 
 If you want to support us financially on a regular basis, you are also very welcome to simply
 [join the association](/en/become-a-member/) or write an

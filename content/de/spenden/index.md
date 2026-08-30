@@ -47,7 +47,7 @@ Starship Factory\
 
 Du magst keine Überweisungen? Kein Problem! Bring deine Spende beim nächsten Besuch mit und
 wirf sie in die Spendenbox oder gib sie
-[einem Vorstandsmitglied deiner Wahl](https://wiki.starship-factory.ch/Vereinskram/Vorstand/).
+einem Vorstandsmitglied deiner Wahl.
 
 Wenn du uns regelmässig finanziell unterstützen willst, kannst du auch gerne einfach
 [dem Verein beitreten](/mitglied-werden/) oder uns ein
