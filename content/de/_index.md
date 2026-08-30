@@ -1,13 +1,127 @@
 ---
 title: "Starship Factory"
-description: "Die Starship Factory ist der Makerspace in Basel: ein offener Werkraum zum Basteln, Bauen, Reparieren und Lernen."
+description: "Die Starship Factory ist dein Makerspace in Basel: ein offener Werkraum zum Basteln, Bauen, Reparieren und Lernen. Gasstrasse 20, im Hinterhof."
 showHeader: false
 ---
 
+{{< columns count=2 >}}
+{{< column >}}
+
 # Dein Makerspace in Basel
 
-Die Starship Factory ist ein offener Werkraum in Basel. Bei uns wird gebastelt,
-gebaut, repariert und weitergegeben, was man dabei lernt — an 3D-Druckern,
-Nähmaschinen, Lötstationen und allem, was Mitglieder mitbringen.
+{{< intro >}}
+Die Starship Factory ist dein Makerspace in Basel. Du findest uns an der Gasstrasse 20 im
+Hinterhof. Komm doch einfach mal vorbei!
+{{< /intro >}}
 
-Komm vorbei, schau dich um, mach mit.
+{{< button link="/anfahrt/" text="Anfahrt" >}}
+
+{{< /column >}}
+{{< column >}}
+{{< img src="/img/home/hero.jpg" alt="Die Starship Factory bei Nacht" loading="eager" >}}
+{{< /column >}}
+{{< /columns >}}
+
+Wir sind ein Makerspace, Hackerspace, Treffpunkt und eine Mitmachwerkstatt. Bei uns trifft
+sich eine bunte Mischung aus kreativen Bastler:innen, Künstler:innen und Geeks aus Basel und
+Umgebung. Unsere Vereinsmitglieder und Gäste basteln an eigenen und gemeinsamen Projekten,
+lernen, lehren und inspirieren einander.
+
+**Wo?**\
+Gasstrasse 20, 4057 Basel (im Hinterhof)
+
+**Öffnungszeiten**\
+Di 19:30–22:00, Fr 19:30–22:00
+
+{{< spacer 20 >}}
+
+## Was du bei uns machen kannst
+
+{{< columns count=2 >}}
+{{< column >}}
+{{< img src="/img/home/3d-druck.jpg" alt="Die 3D-Druck-Ecke der Starship Factory" >}}
+{{< /column >}}
+{{< column >}}
+### 3D-Druck
+Wir haben aktuell einen Maschinenpark von mehreren 3D-Druckern. Auf diesen können eigene
+3D-Modelle aus Plastik ausgedruckt werden.
+
+{{< button link="https://wiki.starship-factory.ch/Equipment/3D-Drucker/" text="Mehr lesen" style="secondary" >}}
+{{< /column >}}
+{{< /columns >}}
+
+{{< columns count=2 >}}
+{{< column >}}
+### CNC-Bearbeitung
+Mit unserer CNC-Fräse können wir Teile aus Holz oder anderen weichen Materialien fertigen.
+
+{{< button link="https://wiki.starship-factory.ch/Equipment/CNC_Portalfraese/" text="Mehr lesen" style="secondary" >}}
+{{< /column >}}
+{{< column >}}
+{{< img src="https://wiki.starship-factory.ch/Equipment/CNC_Portalfraese/800x-image4.jpg" alt="Die CNC-Portalfräse der Starship Factory" >}}
+{{< /column >}}
+{{< /columns >}}
+
+{{< columns count=2 >}}
+{{< column >}}
+{{< img src="https://wiki.starship-factory.ch/Equipment/KH-3020/Laser_KH-3020.jpg" alt="Der Laser-Cutter KH-3020" >}}
+{{< /column >}}
+{{< column >}}
+### Laser-Cutter
+Mit unserem Laser-Cutter kann man aus Sperrholz oder Acrylglas Bauteile ausschneiden, und
+vieles mehr!
+
+{{< button link="https://wiki.starship-factory.ch/Equipment/KH-3020/" text="Mehr lesen" style="secondary" >}}
+{{< /column >}}
+{{< /columns >}}
+
+{{< columns count=2 >}}
+{{< column >}}
+### Elektronik
+In der Starship Factory gibt es ein sehr gut ausgestattetes Elektroniklabor. Hier kannst du
+nach Herzenslust löten, SMD-Platinen fertigen oder deine Arduino-Schaltungen testen. Wir
+stehen Elektronikneulingen auch gerne mit Rat und Tat zur Seite.
+
+{{< button link="https://wiki.starship-factory.ch/Equipment/#Elektronikecke" text="Mehr lesen" style="secondary" >}}
+{{< /column >}}
+{{< column >}}
+{{< img src="/img/home/elektronik.jpg" alt="Basteln in der Starship Factory" >}}
+{{< /column >}}
+{{< /columns >}}
+
+{{< columns count=2 >}}
+{{< column >}}
+{{< img src="/img/home/folienplotter.jpg" alt="Ein selbst bedrucktes T-Shirt aus der Textilecke" >}}
+{{< /column >}}
+{{< column >}}
+### Folien plotten
+In unserer Textilecke kann man Folien für verschiedenste Zwecke ausplotten, unter anderem für
+den T-Shirt-Druck oder um eigene Aufkleber zu designen. Am besten bringst du dein Design
+direkt als SVG-Grafik mit!
+
+{{< button link="https://wiki.starship-factory.ch/Equipment/T-Shirt_Druck/" text="Mehr lesen" style="secondary" >}}
+{{< /column >}}
+{{< /columns >}}
+
+{{< spacer 20 >}}
+
+{{< cards count=3 >}}
+{{< card >}}
+#### Mitglied werden
+Ab 24.- im Monat trägst du den Verein mit, bestimmst mit und bastelst günstiger.
+{{< spacer 5 >}}
+{{< button link="/mitglied-werden/" text="Mitglied werden" >}}
+{{< /card >}}
+{{< card >}}
+#### Spenden
+Sachspenden, Leihgaben oder ein Beitrag aufs Postkonto — alles hilft.
+{{< spacer 5 >}}
+{{< button link="/spenden/" text="Spenden" >}}
+{{< /card >}}
+{{< card >}}
+#### Blog
+Was bei uns gebaut, repariert und ausprobiert wird.
+{{< spacer 5 >}}
+{{< button link="/blog/" text="Zum Blog" >}}
+{{< /card >}}
+{{< /cards >}}

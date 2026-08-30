@@ -1,13 +1,126 @@
 ---
 title: "Starship Factory"
-description: "Starship Factory is the makerspace in Basel: an open workshop for making, building, repairing and learning."
+description: "Starship Factory is your makerspace in Basel: an open workshop for making, building, repairing and learning. Gasstrasse 20, in the rear courtyard."
 showHeader: false
 ---
 
+{{< columns count=2 >}}
+{{< column >}}
+
 # Your makerspace in Basel
 
-Starship Factory is an open workshop in Basel. We make, build, repair, and pass
-on what we learn along the way — with 3D printers, sewing machines, soldering
-stations, and whatever else members bring along.
+{{< intro >}}
+Starship Factory is your makerspace in Basel. You will find us at Gasstrasse 20, in the rear
+courtyard. Just drop by!
+{{< /intro >}}
 
-Drop by, have a look around, join in.
+{{< button link="/en/how-to-find-us/" text="How to find us" >}}
+
+{{< /column >}}
+{{< column >}}
+{{< img src="/img/home/hero.jpg" alt="Starship Factory at night" loading="eager" >}}
+{{< /column >}}
+{{< /columns >}}
+
+We are a makerspace, hackerspace, meeting point and open workshop. A colourful mix of creative
+makers, artists and geeks from Basel and the surrounding area comes together here. Our members
+and guests work on their own and on joint projects, learning, teaching and inspiring each
+other.
+
+**Where?**\
+Gasstrasse 20, 4057 Basel (in the rear courtyard)
+
+**Opening hours**\
+Tue 19:30–22:00, Fri 19:30–22:00
+
+{{< spacer 20 >}}
+
+## What you can do here
+
+{{< columns count=2 >}}
+{{< column >}}
+{{< img src="/img/home/3d-druck.jpg" alt="The 3D printing corner at Starship Factory" >}}
+{{< /column >}}
+{{< column >}}
+### 3D printing
+We currently have a fleet of several 3D printers. You can use them to print your own 3D models
+in plastic.
+
+{{< button link="https://wiki.starship-factory.ch/Equipment/3D-Drucker/" text="Read more" style="secondary" >}}
+{{< /column >}}
+{{< /columns >}}
+
+{{< columns count=2 >}}
+{{< column >}}
+### CNC machining
+With our CNC mill we can make parts from wood and other soft materials.
+
+{{< button link="https://wiki.starship-factory.ch/Equipment/CNC_Portalfraese/" text="Read more" style="secondary" >}}
+{{< /column >}}
+{{< column >}}
+{{< img src="https://wiki.starship-factory.ch/Equipment/CNC_Portalfraese/800x-image4.jpg" alt="The CNC gantry mill at Starship Factory" >}}
+{{< /column >}}
+{{< /columns >}}
+
+{{< columns count=2 >}}
+{{< column >}}
+{{< img src="https://wiki.starship-factory.ch/Equipment/KH-3020/Laser_KH-3020.jpg" alt="The KH-3020 laser cutter" >}}
+{{< /column >}}
+{{< column >}}
+### Laser cutter
+With our laser cutter you can cut parts from plywood or acrylic glass, and much more!
+
+{{< button link="https://wiki.starship-factory.ch/Equipment/KH-3020/" text="Read more" style="secondary" >}}
+{{< /column >}}
+{{< /columns >}}
+
+{{< columns count=2 >}}
+{{< column >}}
+### Electronics
+Starship Factory has a very well equipped electronics lab. Here you can solder to your heart's
+content, make SMD boards or test your Arduino circuits. We are also happy to help newcomers to
+electronics with advice and a hand.
+
+{{< button link="https://wiki.starship-factory.ch/Equipment/#Elektronikecke" text="Read more" style="secondary" >}}
+{{< /column >}}
+{{< column >}}
+{{< img src="/img/home/elektronik.jpg" alt="Making things at Starship Factory" >}}
+{{< /column >}}
+{{< /columns >}}
+
+{{< columns count=2 >}}
+{{< column >}}
+{{< img src="/img/home/folienplotter.jpg" alt="A self-printed T-shirt from the textile corner" >}}
+{{< /column >}}
+{{< column >}}
+### Vinyl cutting
+In our textile corner you can cut vinyl for all sorts of purposes, among them T-shirt printing
+or designing your own stickers. Best of all, bring your design along as an SVG file!
+
+{{< button link="https://wiki.starship-factory.ch/Equipment/T-Shirt_Druck/" text="Read more" style="secondary" >}}
+{{< /column >}}
+{{< /columns >}}
+
+{{< spacer 20 >}}
+
+{{< cards count=3 >}}
+{{< card >}}
+#### Become a member
+From CHF 24.- a month you help carry the association, have a say, and make things more
+cheaply.
+{{< spacer 5 >}}
+{{< button link="/en/become-a-member/" text="Become a member" >}}
+{{< /card >}}
+{{< card >}}
+#### Donate
+Equipment, loans or a contribution to our postal account — it all helps.
+{{< spacer 5 >}}
+{{< button link="/en/donate/" text="Donate" >}}
+{{< /card >}}
+{{< card >}}
+#### Blog
+What gets built, repaired and tried out at our space.
+{{< spacer 5 >}}
+{{< button link="/en/blog/" text="To the blog" >}}
+{{< /card >}}
+{{< /cards >}}
