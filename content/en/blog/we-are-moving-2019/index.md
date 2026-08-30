@@ -1,8 +1,8 @@
 ---
 title: "We are moving!"
 date: 2019-05-20
-slug: "we-are-moving"
-translationKey: "wir-ziehen-um"
+slug: "we-are-moving-2019"
+translationKey: "2019-05-20-wir-ziehen-um"
 categories:
   - "Organisation"
 ---

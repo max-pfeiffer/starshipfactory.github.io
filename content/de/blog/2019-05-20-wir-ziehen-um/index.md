@@ -2,7 +2,7 @@
 title: "Wir ziehen um!"
 date: 2019-05-20
 slug: "wir-ziehen-um"
-translationKey: "wir-ziehen-um"
+translationKey: "2019-05-20-wir-ziehen-um"
 categories:
   - "Organisation"
 ---
