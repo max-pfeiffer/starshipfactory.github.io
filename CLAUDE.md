@@ -177,14 +177,45 @@ German therefore lives at the site root (`/anfahrt/`) and English under `/en/`
 
 Rules:
 
-- Every page gets a German version. English versions are desirable but may lag; Hugo falls
-  back to the default language when a translation is missing.
-- Link translated pages via matching filenames or an explicit `translationKey` in front
-  matter, so the theme's language selector works.
+- **German is written first and is the source of truth. English is produced by translating
+  it.** Never author an English page independently — it drifts from the German and nobody
+  notices.
+- **Every German page and every blog post gets an English translation**, produced as part of
+  the same task that creates or changes the German. A German page committed without its
+  English counterpart is unfinished work, not a backlog item. Hugo's fallback to the default
+  language exists as a safety net, not as a plan.
+- Link translated pages with an explicit `translationKey` in front matter, so the theme's
+  language selector works even when the slugs differ.
 - UI strings go in `i18n/de.yaml` / `i18n/en.yaml`, never hardcoded in a template.
 - German content uses Swiss German orthography: **"ss" instead of "ß"** (`Strasse`,
   `Schliessfach`), and Swiss number/date conventions.
-- Address the reader with the informal **"du"** — that is the tone of the space.
+- Address the reader with the informal **"du"** — that is the tone of the space. In English
+  use the equivalent plain, direct register ("you", contractions, no corporate voice).
+
+### Translating
+
+Translate the meaning, not the words. The English site should read as though written by a
+member, not as output from a translation tool.
+
+- **Translate the slug too**, and keep it in the front matter: `/mitglied-werden/` becomes
+  `/en/become-a-member/`, not `/en/mitglied-werden/`. Front matter `title`, `description`,
+  `summary` and image alt text all get translated as well — not just the body.
+- **Do not translate proper nouns**: "Starship Factory", street and place names, Basel
+  transport lines and stop names, "Verein" when it names the legal entity, product and
+  machine names. Keep the German term and add a short gloss on first use where an English
+  reader would otherwise be lost (e.g. *Verein* — a Swiss registered association).
+- Keep German terms that have no clean English equivalent and that members actually say,
+  rather than inventing English ones.
+- Convert nothing factual: prices in CHF stay CHF, dates and addresses keep Swiss format,
+  IBANs and opening hours are copied verbatim. A translation must not change a number.
+- Keep the Markdown structure identical — same headings, same links, same images, same
+  shortcodes — so the two languages stay diffable against each other.
+- **Legal pages are a special case.** Translate Impressum, Datenschutz, Statuten and
+  Reglement/Charta for comprehension, but add a line at the top of each English version
+  stating that the German original is the legally binding version, and never reword a legal
+  clause to "improve" it. If a passage is genuinely ambiguous, translate it literally and
+  flag it rather than interpreting it.
+- When the German changes later, update the English in the same commit.
 
 ## Content sections
 
@@ -248,6 +279,12 @@ Old posts live at `master:_posts/YYYY-MM-DD-slug.md` with Jekyll front matter an
 - **The feed URL changes.** Jekyll served `/feed.xml`; Hugo serves `/index.xml`. Add an
   alias or a redirect so existing subscribers do not silently break.
 - Rewrite Jekyll-isms: `{% include %}`, `{% highlight %}`, and `/assets/images/...` paths.
+- **Every post gets an English translation** under `content/en/blog/`, per the "Translating"
+  rules above. Old posts are translated too — the archive is part of the site, not an
+  exception. Translate a post in the same batch in which it is migrated, so no post is ever
+  committed German-only.
+- Post `date` and `author` must be identical in both languages; only the prose, `title`,
+  `description`, `slug` and `tags` are translated. Keep `translationKey` on both.
 
 ## Images & media
 
@@ -588,7 +625,11 @@ Other deployment notes:
   Netlify-style `_redirects` files do **not** work here — use `aliases` for every old URL.
 - The theme ships a `netlify.toml`; it is a reference for the build steps, not the
   deployment target. Do not add Netlify config to this repo.
-- `master` still serves the old Jekyll site. Only merge the Hugo site when it is complete.
+- **`master` still serves the old Jekyll site, and merging is the user's job.** Do not merge
+  this branch into `master`, do not push to `master`, and do not open the merge as a
+  "finishing touch" — the merge replaces the live website and Max performs it manually once
+  the site is complete. Finish the work on `feature/new-website-with-hugo`, report that it is
+  ready, and stop there.
 
 ## Tooling & maintenance
 
