@@ -24,11 +24,13 @@ for instance (bring your phone), and to get to know the tinkerer in you.
 
 <b>Meeting point:</b> Humbug, by the red Vespa
 
+{{< responsive_table >}}
 | Time | Topic | Tour |
 | ------ | ------ | ------ |
 | 11:30 – 12:30 | Sport, movement & sound |  Tour with padel, wumsen, bouldering, tai chi and a presentation by the Basel circus school |
 | 13:30 – 14:30 | Studio & office building |  Tour of building K024 |
 | <b>15:30 – 16:30</b> | <b>Brush, ruler & interaction</b> |  <b>Tour of studio building K106 and Werk Raumkollektiv (Starship Factory, Atelier Kollektiv and Werkstatt Team)</b> |
+{{< /responsive_table >}}
 
 ### Concerts at the Humbug:
 

@@ -24,11 +24,13 @@ Bei uns könnt ihr kleinere Projekte mit dem 3D-Drucker, Laser-Cutter und Schnei
 
 <b>Treffpunkt:</b> Humbug, bei der roten Vespa
 
+{{< responsive_table >}}
 | Zeit | Thema | Rundgang |
 | ------ | ------ | ------ |
 | 11:30 – 12:30 | Sport, Bewegung & Sound |  Rundgang mit Padeln, Wumsen, Bouldern, Thaiji und Vorstellung von der Zirkus Schule Basel |
 | 13:30 – 14:30 | Atelier- & Bürohaus |  Rundgang durch das Haus K024|
 | <b>15:30 – 16:30</b> | <b>Pinsel, Lineal & Interaktion</b> |  <b>Rundgang durch Atelierhaus K106 und Werk Raumkollektiv (Starship Factory, Atelier Kollektiv und Werkstatt Team)</b> |
+{{< /responsive_table >}}
 
 
 ### Konzerte im Humbug:
