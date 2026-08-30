@@ -7,11 +7,13 @@ showHeader: false
 {{< columns count=2 >}}
 {{< column >}}
 
-# Your makerspace in Basel
+# Starship Factory
 
 {{< intro >}}
-Starship Factory is your makerspace in Basel. You will find us at Gasstrasse 20, in the rear
-courtyard. Just drop by!
+We are a makerspace, hackerspace, meeting point and open workshop. A colourful mix of creative
+makers, artists and geeks from Basel and the surrounding area comes together here. Our members
+and guests work on their own and on joint projects, learning, teaching and inspiring each
+other.
 {{< /intro >}}
 
 {{< button link="/en/how-to-find-us/" text="How to find us" >}}
@@ -19,22 +21,13 @@ courtyard. Just drop by!
 {{< /column >}}
 {{< column >}}
 {{< img src="/img/home/hero.jpg" alt="Starship Factory at night" loading="eager" >}}
-{{< /column >}}
-{{< /columns >}}
-
-We are a makerspace, hackerspace, meeting point and open workshop. A colourful mix of creative
-makers, artists and geeks from Basel and the surrounding area comes together here. Our members
-and guests work on their own and on joint projects, learning, teaching and inspiring each
-other.
-
 **Where?**\
-Gasstrasse 20, 4057 Basel (in the rear courtyard)
+Gasstrasse 20, 4056 Basel (in the rear courtyard)
 
 **Opening hours**\
 Tue 19:30–22:00, Fri 19:30–22:00
-
-{{< spacer 20 >}}
-
+{{< /column >}}
+{{< /columns >}}
 ## What you can do here
 
 {{< columns count=2 >}}

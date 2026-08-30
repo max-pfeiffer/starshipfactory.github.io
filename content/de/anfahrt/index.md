@@ -7,7 +7,7 @@ translationKey: "directions"
 Das Vereinslokal der Starship Factory befindet sich im Hinterhof der
 
 Gasstrasse 20\
-4057 Basel
+4056 Basel
 
 Die Clubräume befinden sich dort im 1. Untergeschoss.
 

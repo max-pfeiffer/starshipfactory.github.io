@@ -7,7 +7,7 @@ translationKey: "directions"
 The Starship Factory clubhouse is in the rear courtyard of
 
 Gasstrasse 20\
-4057 Basel
+4056 Basel
 
 Our rooms are on the first basement level.
 

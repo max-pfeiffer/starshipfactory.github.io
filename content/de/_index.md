@@ -7,11 +7,13 @@ showHeader: false
 {{< columns count=2 >}}
 {{< column >}}
 
-# Dein Makerspace in Basel
+# Starship Factory
 
 {{< intro >}}
-Die Starship Factory ist dein Makerspace in Basel. Du findest uns an der Gasstrasse 20 im
-Hinterhof. Komm doch einfach mal vorbei!
+Wir sind ein Makerspace, Hackerspace, Treffpunkt und eine
+Mitmachwerkstatt. Bei uns trifft sich eine bunte Mischung aus kreativen Bastler:innen, Künstler:innen und Geeks 
+aus Basel und Umgebung. Unsere Vereinsmitglieder und Gäste basteln an eigenen und gemeinsamen Projekten,
+lernen, lehren und inspirieren einander.
 {{< /intro >}}
 
 {{< button link="/anfahrt/" text="Anfahrt" >}}
@@ -19,22 +21,13 @@ Hinterhof. Komm doch einfach mal vorbei!
 {{< /column >}}
 {{< column >}}
 {{< img src="/img/home/hero.jpg" alt="Die Starship Factory bei Nacht" loading="eager" >}}
-{{< /column >}}
-{{< /columns >}}
-
-Wir sind ein Makerspace, Hackerspace, Treffpunkt und eine Mitmachwerkstatt. Bei uns trifft
-sich eine bunte Mischung aus kreativen Bastler:innen, Künstler:innen und Geeks aus Basel und
-Umgebung. Unsere Vereinsmitglieder und Gäste basteln an eigenen und gemeinsamen Projekten,
-lernen, lehren und inspirieren einander.
-
 **Wo?**\
-Gasstrasse 20, 4057 Basel (im Hinterhof)
+Gasstrasse 20, 4056 Basel (im Hinterhof)
 
 **Öffnungszeiten**\
 Di 19:30–22:00, Fr 19:30–22:00
-
-{{< spacer 20 >}}
-
+{{< /column >}}
+{{< /columns >}}
 ## Was du bei uns machen kannst
 
 {{< columns count=2 >}}
