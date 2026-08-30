@@ -12,3 +12,6 @@ by: "von"
 
 # Title-Attribut der Social-Media-Icons im Footer
 social_link_title: "{{ .SiteTitle }} auf {{ .Network }}"
+
+# Date format for blog bylines. Go layout string; Hugo localises the month name.
+date_format: "2. January 2006"
