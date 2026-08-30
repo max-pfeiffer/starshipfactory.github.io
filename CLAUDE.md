@@ -343,18 +343,21 @@ logo_on_black: "/img/logo-on-dark.svg"
 Two things to watch:
 
 - **Aspect ratio.** The logo is `293.56 × 169.73` (≈1.73:1), but the theme hardcodes
-  `width="150" height="40"` (3.75:1) on the `<img>`. Left as-is it is squashed. **Fix this in
-  CSS, not by forking `header.html`** — that partial also contains the hamburger button and
-  the whole mobile menu, and forking it puts the theme's responsive navigation at risk for a
-  cosmetic problem:
+  `width="150" height="40"` (3.75:1) on the `<img>`. The artwork is **not** distorted by
+  this: `_header.scss` sets `object-fit: contain` alongside `max-width: 100px` /
+  `max-height: 40px` (130px / 50px above 1000px), so the mark is letterboxed rather than
+  squashed. What remains is dead space — the element box stays 100×40 while the logo fills
+  only ≈69×40, and `object-position: 0 0` pushes the gap to the right of the mark. **Fix
+  that in CSS, not by forking `header.html`** — that partial also contains the hamburger
+  button and the whole mobile menu, and forking it puts the theme's responsive navigation at
+  risk for a cosmetic problem:
 
   ```css
-  .header .logo, .footer .logo { height: auto; }
+  .header .logo, .footer .logo { width: auto; height: auto; }
   ```
 
-  The theme caps the header logo at `max-width: 100px` below 1000px and `130px` above, so
-  `height: auto` scales it correctly within those caps at every width. Ensure the SVG keeps a
-  `viewBox`.
+  Letting both axes size themselves makes the box hug the artwork while still honouring the
+  theme's caps. Ensure the SVG keeps a `viewBox`.
 - **The footer background is `var(--black)`.** The logo's blue (`#3e5f81`) sits at only
   ~3.2:1 against black. `logo-on-dark.svg` must recolour the planet to white (or a much
   lighter blue) and keep the orange, which reads well on black.
