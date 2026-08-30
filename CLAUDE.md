@@ -305,6 +305,12 @@ The old site carries a large `assets/images/uploads/` tree. Do not bulk-copy it 
 
 - Migrate images **as page bundles**: `content/de/blog/my-post/index.md` with its images
   beside it. Only genuinely shared images belong in `static/img/`.
+- **Exception, already applied to the blog archive.** The 131 images referenced by the 96
+  migrated posts live in `static/assets/images/…`, keeping the paths they had on the old
+  site, rather than moving into per-post bundles. Two reasons: the German and English
+  versions of a post reference the same files, so bundles would duplicate every image; and
+  keeping the paths means the old image URLs still resolve. They were downscaled on the way
+  in (51 MB → 19 MB). New posts should still use page bundles.
 - Use Hugo's image pipeline on bundle resources — `.Resize`, `.Fill`, and WebP conversion —
   rather than shipping full-size originals. Configure defaults once:
 
