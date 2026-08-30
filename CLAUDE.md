@@ -200,6 +200,9 @@ member, not as output from a translation tool.
 - **Translate the slug too**, and keep it in the front matter: `/mitglied-werden/` becomes
   `/en/become-a-member/`, not `/en/mitglied-werden/`. Front matter `title`, `description`,
   `summary` and image alt text all get translated as well — not just the body.
+  **One exception: `search.md` keeps its filename in both languages.** The theme's
+  `header.html` hardcodes `{{ "/search" | absLangURL }}`, so a German `suche.md` would leave
+  the header's search icon pointing at a 404. Translate its `title` to "Suche", not its path.
 - **Do not translate proper nouns**: "Starship Factory", street and place names, Basel
   transport lines and stop names, "Verein" when it names the legal entity, product and
   machine names. Keep the German term and add a short gloss on first use where an English
@@ -285,6 +288,15 @@ Old posts live at `master:_posts/YYYY-MM-DD-slug.md` with Jekyll front matter an
   committed German-only.
 - Post `date` and `author` must be identical in both languages; only the prose, `title`,
   `description`, `slug` and `tags` are translated. Keep `translationKey` on both.
+- **Known theme limitation — the byline date is English-only.**
+  `partials/blog/byline.html` hardcodes `.Date.Format "January 2, 2006"`, so German posts
+  render "August 30, 2026" instead of "30. August 2026". Fixing it means overriding that one
+  partial to format per language (e.g. via `time.Format` with a language-aware layout, or an
+  `i18n` date string). Decide before migrating posts; it affects all 96.
+- The old posts use German `ß` (`großen`, `gießen`). Normalise to Swiss `ss` during
+  migration, per the orthography rule above.
+- Old posts carry minimal-mistakes front matter such as `header.teaser`, which has no Hugo
+  equivalent — map it to the page bundle's cover image or drop it.
 
 ## Images & media
 
