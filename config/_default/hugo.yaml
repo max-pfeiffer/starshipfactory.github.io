@@ -27,7 +27,7 @@ enableGitInfo: true
 
 pagination:
   # The old Jekyll site used `paginate: 5`. That key was renamed in Hugo 0.128.
-  pagerSize: 5
+  pagerSize: 25
 
 permalinks:
   # Reproduces the old Jekyll permalink structure so migrated posts keep their URLs
