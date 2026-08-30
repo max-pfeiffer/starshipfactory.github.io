@@ -18,43 +18,43 @@ de:
     github_edit: "Diese Seite auf GitHub bearbeiten"
   menu:
     main:
-    - identifier: "home"
-      name: "Home"
-      url: "/"
-      weight: 1
-    - identifier: "blog"
-      name: "Blog"
-      url: "/blog/"
-      weight: 2
-    - identifier: "mitglied-werden"
-      name: "Mitglied werden"
-      url: "/mitglied-werden/"
-      weight: 3
-    - identifier: "anfahrt"
-      name: "Anfahrt"
-      url: "/anfahrt/"
-      weight: 4
-    - identifier: "spenden"
-      name: "Spenden"
-      url: "/spenden/"
-      weight: 5
-    - identifier: "statuten"
-      name: "Statuten"
-      url: "/statuten/"
-      weight: 6
-    - identifier: "reglement"
-      name: "Reglement/Charta"
-      url: "/reglement/"
-      weight: 7
+      - identifier: "home"
+        name: "Home"
+        url: "/"
+        weight: 1
+      - identifier: "blog"
+        name: "Blog"
+        url: "/blog/"
+        weight: 2
+      - identifier: "mitglied-werden"
+        name: "Mitglied werden"
+        url: "/mitglied-werden/"
+        weight: 3
+      - identifier: "anfahrt"
+        name: "Anfahrt"
+        url: "/anfahrt/"
+        weight: 4
+      - identifier: "spenden"
+        name: "Spenden"
+        url: "/spenden/"
+        weight: 5
+      - identifier: "statuten"
+        name: "Statuten"
+        url: "/statuten/"
+        weight: 6
+      - identifier: "reglement"
+        name: "Reglement/Charta"
+        url: "/reglement/"
+        weight: 7
     legal:
-    - identifier: "datenschutz"
-      name: "Datenschutz"
-      url: "/datenschutz/"
-      weight: 1
-    - identifier: "impressum"
-      name: "Impressum"
-      url: "/impressum/"
-      weight: 2
+      - identifier: "datenschutz"
+        name: "Datenschutz"
+        url: "/datenschutz/"
+        weight: 1
+      - identifier: "impressum"
+        name: "Impressum"
+        url: "/impressum/"
+        weight: 2
 
 ######################## english — translated from the german, served under /en/ ############
 en:
@@ -77,40 +77,40 @@ en:
     github_edit: "Edit this page on GitHub"
   menu:
     main:
-    - identifier: "home"
-      name: "Home"
-      url: "/"
-      weight: 1
-    - identifier: "blog"
-      name: "Blog"
-      url: "/blog/"
-      weight: 2
-    - identifier: "mitglied-werden"
-      name: "Become a member"
-      url: "/become-a-member/"
-      weight: 3
-    - identifier: "anfahrt"
-      name: "How to find us"
-      url: "/how-to-find-us/"
-      weight: 4
-    - identifier: "spenden"
-      name: "Donate"
-      url: "/donate/"
-      weight: 5
-    - identifier: "statuten"
-      name: "Statutes"
-      url: "/statutes/"
-      weight: 6
-    - identifier: "reglement"
-      name: "Charter"
-      url: "/charter/"
-      weight: 7
+      - identifier: "home"
+        name: "Home"
+        url: "/"
+        weight: 1
+      - identifier: "blog"
+        name: "Blog"
+        url: "/blog/"
+        weight: 2
+      - identifier: "mitglied-werden"
+        name: "Become a member"
+        url: "/become-a-member/"
+        weight: 3
+      - identifier: "anfahrt"
+        name: "How to find us"
+        url: "/how-to-find-us/"
+        weight: 4
+      - identifier: "spenden"
+        name: "Donate"
+        url: "/donate/"
+        weight: 5
+      - identifier: "statuten"
+        name: "Statutes"
+        url: "/statutes/"
+        weight: 6
+      - identifier: "reglement"
+        name: "Charter"
+        url: "/charter/"
+        weight: 7
     legal:
-    - identifier: "datenschutz"
-      name: "Privacy"
-      url: "/privacy/"
-      weight: 1
-    - identifier: "impressum"
-      name: "Imprint"
-      url: "/imprint/"
-      weight: 2
+      - identifier: "datenschutz"
+        name: "Privacy"
+        url: "/privacy/"
+        weight: 1
+      - identifier: "impressum"
+        name: "Imprint"
+        url: "/imprint/"
+        weight: 2

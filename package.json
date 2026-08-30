@@ -9,7 +9,9 @@
     "dev": "npm run dev:start",
     "dev:start": "hugo serve --logLevel info --configDir=config --buildDrafts --buildFuture --ignoreCache --disableFastRender --gc  --printI18nWarnings --printMemoryUsage --printPathWarnings --printUnusedTemplates --templateMetrics --templateMetricsHints",
     "dev:start:with-pagefind": "hugo --baseURL=/ --theme=dot-org-hugo-theme && npm_config_yes=true npx pagefind --site 'public' --output-subdir '../static/pagefind' && npm run dev:start",
-    "dev:build": "hugo --theme=dot-org-hugo-theme"
+    "dev:build": "hugo --theme=dot-org-hugo-theme",
+    "format": "prettier --write \"**/*.{json,yaml,yml,html,css,js}\"",
+    "format:check": "prettier --check \"**/*.{json,yaml,yml,html,css,js}\""
   },
   "repository": {
     "type": "git",

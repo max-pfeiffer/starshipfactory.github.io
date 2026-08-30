@@ -47,6 +47,14 @@ jobs:
         # Pagefind indexes the built output, so it has to run after Hugo.
         run: npx -y pagefind --site public
 
+      - name: Check links
+        # Internal links only — see lychee.toml. The archive links to a lot
+        # of the 2013-era web, and those breaking is not a build failure.
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: --config lychee.toml --no-progress --root-dir "${{ github.workspace }}/public" "public/**/*.html"
+          fail: true
+
       - name: Report build output
         run: |
           echo "pages built: $(find public -name index.html | wc -l)"

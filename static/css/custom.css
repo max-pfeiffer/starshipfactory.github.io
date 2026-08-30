@@ -11,10 +11,10 @@
 
 :root {
   /* Brand colours, taken from static/img/logo.svg */
-  --sf-orange: #ff6600;        /* logo wordmark and orbit ring */
-  --sf-orange-dark: #b34700;   /* darkened: 5.5:1 on white, AA for text */
+  --sf-orange: #ff6600; /* logo wordmark and orbit ring */
+  --sf-orange-dark: #b34700; /* darkened: 5.5:1 on white, AA for text */
   --sf-orange-darker: #8f3900; /* hover for the above */
-  --sf-blue: #3e5f81;          /* logo planet: 6.6:1 on white, AA for text */
+  --sf-blue: #3e5f81; /* logo planet: 6.6:1 on white, AA for text */
   --sf-blue-dark: #2e4760;
   --sf-blue-darker: #22354a;
 
@@ -22,11 +22,11 @@
      Full-strength orange is NOT used for anything carrying text: #ff6600 on
      white is 2.9:1 and fails WCAG AA. The theme puts white text on
      --primary-400, so that role gets the darkened orange instead. */
-  --primary-400: var(--sf-orange-dark);   /* secondary/tertiary button background */
+  --primary-400: var(--sf-orange-dark); /* secondary/tertiary button background */
   --primary-500: var(--sf-orange-darker); /* its hover */
-  --primary-600: var(--sf-blue);          /* body links */
-  --primary-700: var(--sf-blue-dark);     /* primary button background, link hover */
-  --primary-800: var(--sf-blue-darker);   /* primary button hover */
+  --primary-600: var(--sf-blue); /* body links */
+  --primary-700: var(--sf-blue-dark); /* primary button background, link hover */
+  --primary-800: var(--sf-blue-darker); /* primary button hover */
 
   /* The footer sits on black, where full-strength orange is 7.2:1 and reads well. */
   --footer-link-color-hover: var(--sf-orange);

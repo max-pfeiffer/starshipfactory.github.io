@@ -1,0 +1,20 @@
+# Link checker configuration. See https://lychee.cli.rs
+# Run against the built site in public/, not the Markdown sources, so that
+# aliases, permalinks and the language prefixes are all resolved.
+
+# The archive spans 2013-2025 and links to a lot of the early web. Dead
+# external links in historical posts are expected and are not a reason to
+# fail a build; only internal links must hold.
+exclude_all_private = true
+max_concurrency = 8
+timeout = 20
+max_retries = 2
+accept = ["200..=299", "403", "429"]
+
+exclude = [
+  # Historical external links in blog posts. Many of these sites are gone;
+  # the posts are archives and their links are left as written.
+  "^https?://(?!starship-factory\\.ch|www\\.starship-factory\\.ch)",
+  # mailto: links carry long prefilled bodies that lychee cannot verify
+  "^mailto:",
+]
