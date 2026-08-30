@@ -1,1 +1,15 @@
-.idea
+# Hugo build output
+public/
+resources/
+.hugo_build.lock
+hugo_stats.json
+
+# Generated Pagefind search index (built at deploy time)
+static/pagefind/
+
+# Node
+node_modules/
+
+# Editors / OS
+.idea/
+.DS_Store
